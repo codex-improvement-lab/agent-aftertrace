@@ -1,0 +1,55 @@
+{
+  "sourceCommit": "3b2eb81a11914fd088a4f313184f533555ebb7e5",
+  "runId": 34218163483,
+  "runUrl": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483",
+  "jobs": [
+    {
+      "id": 102034756036,
+      "name": "query-and-package (ubuntu-latest, 3.13)",
+      "conclusion": "success",
+      "html_url": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483/job/102034756036",
+      "started_at": "2026-09-08T10:57:42Z",
+      "completed_at": "2026-09-08T10:58:03Z"
+    },
+    {
+      "id": 102034756222,
+      "name": "query-and-package (windows-latest, 3.11)",
+      "conclusion": "success",
+      "html_url": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483/job/102034756222",
+      "started_at": "2026-09-08T10:57:42Z",
+      "completed_at": "2026-09-08T10:58:33Z"
+    },
+    {
+      "id": 102034756225,
+      "name": "query-and-package (ubuntu-latest, 3.11)",
+      "conclusion": "success",
+      "html_url": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483/job/102034756225",
+      "started_at": "2026-09-08T10:57:42Z",
+      "completed_at": "2026-09-08T10:58:01Z"
+    },
+    {
+      "id": 102034756243,
+      "name": "query-and-package (macos-latest, 3.13)",
+      "conclusion": "success",
+      "html_url": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483/job/102034756243",
+      "started_at": "2026-09-08T10:57:48Z",
+      "completed_at": "2026-09-08T10:58:09Z"
+    },
+    {
+      "id": 102034756361,
+      "name": "query-and-package (windows-latest, 3.13)",
+      "conclusion": "success",
+      "html_url": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483/job/102034756361",
+      "started_at": "2026-09-08T10:57:43Z",
+      "completed_at": "2026-09-08T10:58:30Z"
+    },
+    {
+      "id": 102034756420,
+      "name": "query-and-package (macos-latest, 3.11)",
+      "conclusion": "success",
+      "html_url": "https://github.com/codex-improvement-lab/agent-aftertrace/actions/runs/34218163483/job/102034756420",
+      "started_at": "2026-09-08T10:57:48Z",
+      "completed_at": "2026-09-08T10:58:12Z"
+    }
+  ]
+}
