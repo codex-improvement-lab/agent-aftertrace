@@ -1,0 +1,121 @@
+{
+  "schema": "aftertrace-library-compatibility/1",
+  "evidenceClass": "authored-pinned-library-behavior-checks",
+  "casesSourceSha256": "41af60fc167700816c55c6725212002a8517035a668c6ee66632b0800ca7d236",
+  "baselineSourceSha256": "18d268bc2fc34e7ae7d52e84255f98a86e088eed500f97588673a6fcf1ad2ab0",
+  "cases": [
+    {
+      "id": "compatible-release-prefix",
+      "package": "packaging",
+      "version": "25.0",
+      "module": "packaging.specifiers",
+      "variable": "prefix",
+      "expectedRepresentations": [
+        "'2.2'",
+        "'2.2.*'"
+      ],
+      "upstream": "https://github.com/pypa/packaging/tree/25.0",
+      "question": "Why does ~=2.2.0 accept 2.2.5 but reject 2.3.0? Inspect the computed prefix.",
+      "sourceSha256": "82d3eee434dcf85f5b68bab71531842ba74f847182bb0c197ad698d0f495da0b"
+    },
+    {
+      "id": "retry-before-cap",
+      "package": "urllib3",
+      "version": "2.5.0",
+      "module": "urllib3.util.retry",
+      "variable": "backoff_value",
+      "expectedRepresentations": [
+        "2.0"
+      ],
+      "upstream": "https://github.com/urllib3/urllib3/tree/2.5.0",
+      "question": "What backoff was calculated before the one-second maximum was applied?",
+      "sourceSha256": "6e3fb6614a9b9712e5bfc4c78397f1c30f83339e1709b8e0657210ef55e2a026"
+    },
+    {
+      "id": "iso-fraction-cursor",
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "module": "dateutil.parser.isoparser",
+      "variable": "pos",
+      "expectedRepresentations": [
+        "18",
+        "19"
+      ],
+      "upstream": "https://github.com/dateutil/dateutil/tree/2.9.0.post0",
+      "question": "Where did parsing advance after a nine-digit fractional second and the Z suffix?",
+      "sourceSha256": "f05cbdf7d6e709dd5fad274e62e3ab6967c94ed7795bba90e7537036e1ff8573"
+    },
+    {
+      "id": "cli-attached-value",
+      "package": "click",
+      "version": "8.2.1",
+      "module": "click.parser",
+      "variable": "explicit_value",
+      "expectedRepresentations": [
+        "None",
+        "'bad'"
+      ],
+      "upstream": "https://github.com/pallets/click/tree/8.2.1",
+      "question": "Which attached option value reached the parser before integer validation failed?",
+      "sourceSha256": "9d4d40876a75d6adbdba5d6f35d53db303e8fcf52e2abc54e985d3a22ef5ab57"
+    },
+    {
+      "id": "template-column-remainder",
+      "package": "Jinja2",
+      "version": "3.1.6",
+      "module": "jinja2.filters",
+      "variable": "slices_with_extra",
+      "expectedRepresentations": [
+        "1"
+      ],
+      "upstream": "https://github.com/pallets/jinja/tree/3.1.6",
+      "question": "Why are ten items divided into column lengths 4, 3, 3? Inspect the remainder.",
+      "sourceSha256": "3d0fc481df67f634a0b671906321782b98f69d8c21508ba584f9f28a691dafe9"
+    },
+    {
+      "id": "chunk-tail-before-fill",
+      "package": "boltons",
+      "version": "25.0.0",
+      "module": "boltons.iterutils",
+      "variable": "lc",
+      "expectedRepresentations": [
+        "3",
+        "2"
+      ],
+      "upstream": "https://github.com/mahmoud/boltons/tree/25.0.0",
+      "question": "What was the tail length before explicit None padding filled the final chunk?",
+      "sourceSha256": "229f0f767aa3ca9fbc0b057dd7191170815bffb43599d3a293a246bd5a75afb6"
+    },
+    {
+      "id": "consecutive-group-key",
+      "package": "more-itertools",
+      "version": "10.8.0",
+      "module": "more_itertools.more",
+      "variable": "k",
+      "expectedRepresentations": [
+        "-1",
+        "-8",
+        "-16"
+      ],
+      "upstream": "https://github.com/more-itertools/more-itertools/tree/v10.8.0",
+      "question": "Which group keys split 1,2,10,11,20 into three consecutive groups?",
+      "sourceSha256": "98d3ca2aee5423b9512f8eb4be09b441309616218c542328b123f15527626e8b"
+    },
+    {
+      "id": "schema-contains-overflow",
+      "package": "jsonschema",
+      "version": "4.25.1",
+      "module": "jsonschema._keywords",
+      "variable": "matches",
+      "expectedRepresentations": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "upstream": "https://github.com/python-jsonschema/jsonschema/tree/v4.25.1",
+      "question": "How many values matched contains when maxContains=2 was exceeded?",
+      "sourceSha256": "afcfc3aea01f9fa40bc109e65c4820bde89253e51a20bda9da7b8f20d7a57c57"
+    }
+  ]
+}

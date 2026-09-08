@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.whl binary
+*.gz binary
+*.zip binary
+docs/evidence/*.json -text

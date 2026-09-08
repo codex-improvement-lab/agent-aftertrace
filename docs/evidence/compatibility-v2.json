@@ -1,0 +1,119 @@
+{
+  "schema": "aftertrace-compatibility-results/1",
+  "freezeSha256": "a7459e5327dcbc3e750e01b761995efae77ffa6c37d30c60a72331c866954ad2",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "win32",
+    "viztracer": "1.1.1"
+  },
+  "evidenceClass": "authored-pinned-library-behavior-checks",
+  "agentTrials": 0,
+  "wholeTaskComparisons": 0,
+  "m0StandaloneGate": "NOT_PASSED",
+  "results": [
+    {
+      "id": "compatible-release-prefix",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "82d3eee434dcf85f5b68bab71531842ba74f847182bb0c197ad698d0f495da0b",
+      "baselineObservationCount": 4,
+      "aftertraceObservationCount": 4,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 883,
+      "status": "pass"
+    },
+    {
+      "id": "retry-before-cap",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "6e3fb6614a9b9712e5bfc4c78397f1c30f83339e1709b8e0657210ef55e2a026",
+      "baselineObservationCount": 1,
+      "aftertraceObservationCount": 1,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 462,
+      "status": "pass"
+    },
+    {
+      "id": "iso-fraction-cursor",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "f05cbdf7d6e709dd5fad274e62e3ab6967c94ed7795bba90e7537036e1ff8573",
+      "baselineObservationCount": 8,
+      "aftertraceObservationCount": 8,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 1369,
+      "status": "pass"
+    },
+    {
+      "id": "cli-attached-value",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "9d4d40876a75d6adbdba5d6f35d53db303e8fcf52e2abc54e985d3a22ef5ab57",
+      "baselineObservationCount": 3,
+      "aftertraceObservationCount": 3,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 752,
+      "status": "pass"
+    },
+    {
+      "id": "template-column-remainder",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "3d0fc481df67f634a0b671906321782b98f69d8c21508ba584f9f28a691dafe9",
+      "baselineObservationCount": 1,
+      "aftertraceObservationCount": 1,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 464,
+      "status": "pass"
+    },
+    {
+      "id": "chunk-tail-before-fill",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "229f0f767aa3ca9fbc0b057dd7191170815bffb43599d3a293a246bd5a75afb6",
+      "baselineObservationCount": 2,
+      "aftertraceObservationCount": 2,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 579,
+      "status": "pass"
+    },
+    {
+      "id": "consecutive-group-key",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "98d3ca2aee5423b9512f8eb4be09b441309616218c542328b123f15527626e8b",
+      "baselineObservationCount": 3,
+      "aftertraceObservationCount": 3,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 706,
+      "status": "pass"
+    },
+    {
+      "id": "schema-contains-overflow",
+      "targetExitCode": 0,
+      "sourceUnchanged": true,
+      "sourceSha256": "afcfc3aea01f9fa40bc109e65c4820bde89253e51a20bda9da7b8f20d7a57c57",
+      "baselineObservationCount": 4,
+      "aftertraceObservationCount": 4,
+      "identicalObservationStream": true,
+      "expectedRepresentationsFound": true,
+      "bufferOverflow": false,
+      "recordingBytes": 859,
+      "status": "pass"
+    }
+  ]
+}

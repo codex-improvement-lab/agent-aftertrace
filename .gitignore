@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.aftertrace/
+research/results/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+._audit/
+.tools/
+.ci-evidence/
+.env
+.env.*
+!.env.example

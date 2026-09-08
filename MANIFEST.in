@@ -1,0 +1,8 @@
+include LICENSE README.md CHANGELOG.md AGENTS.md SECURITY.md
+recursive-include docs *.md *.json
+recursive-include research *.py *.md *.txt
+recursive-exclude research/results *
+recursive-include tests *.py
+recursive-include skills *.md
+recursive-include scripts *.py
+recursive-include release *.md

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-aftertrace"
+version = "0.1.0a1"
+description = "Small, bounded JSON queries over saved VizTracer execution history."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Codex Improvement Lab"}]
+keywords = ["agents", "debugging", "viztracer", "execution-history"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Debuggers",
+]
+dependencies = []
+
+[project.optional-dependencies]
+record = ["viztracer==1.1.1"]
+test = ["pytest==8.4.2"]
+
+[project.scripts]
+aftertrace = "aftertrace.cli:main"
+
+[project.urls]
+Repository = "https://github.com/codex-improvement-lab/agent-aftertrace"
+Issues = "https://github.com/codex-improvement-lab/agent-aftertrace/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

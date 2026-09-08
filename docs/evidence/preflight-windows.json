@@ -1,0 +1,19 @@
+{
+  "schema": "aftertrace-preflight/1",
+  "evidenceClass": "synthetic-baseline-disconfirmation",
+  "viztracerVersion": "1.1.1",
+  "sourceSha256": "7dc17e1f700b433abe87dfafa6b9e9af74a59bb226e1dabb5ee5446d6736f26b",
+  "protocolSha256": "ff08b9bea0ee4b4ee9f5dd7419b8f14aaab8614c61f4bf8919f9015f5ecfff7c",
+  "targetExecutions": 1,
+  "sourceChanged": false,
+  "targetExitCode": 1,
+  "recordingBytes": 28929,
+  "baselineFirstNegative": -33,
+  "precedingRecordedStep": 47,
+  "aftertraceFirstNegative": -33,
+  "newRecorderRequiredForThisFact": false,
+  "agentSelectionMeasured": false,
+  "wholeTaskBenefitMeasured": false,
+  "m0StandaloneGate": "NOT_PASSED",
+  "decision": "Publish only an experimental query integration; retain the standalone gate."
+}
