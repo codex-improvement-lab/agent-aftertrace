@@ -10,6 +10,12 @@ the final traceback.
 reads the saved JSON. No model API, server, or required UI. The query package
 uses only the Python standard library; recording is an optional dependency.
 
+In the small demo below, a balance goes negative, recovers to 71, and only
+then the program raises. Aftertrace finds the earlier captured -33 in the
+saved recording. The runnable example is immediately below the image.
+
+![Synthetic Python demo: the final recorded balance is 71, but querying the saved VizTracer trace finds an earlier -33. Selected query fields show found and rootCauseEstablished false.](docs/media/aftertrace-demo.png)
+
 ## Try the complete loop
 
 Python 3.11 or later, in a virtual environment:

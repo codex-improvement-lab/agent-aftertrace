@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Aftertrace: the bug happened earlier</title>
+<desc id="desc">Synthetic Python demo. Final recorded balance is 71. Querying the saved VizTracer recording finds an earlier balance of minus 33. Selected JSON fields are status found, scalarValue minus 33, and rootCauseEstablished false. A first observed match does not establish the cause.</desc>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#F3F1E9"/>
+<rect x="64" y="53" width="8" height="36" rx="4" fill="#087E70"/>
+<text x="90" y="47" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#163832">aftertrace</text>
+<text x="1140" y="60" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#5B6C65">PYTHON  /  OPEN-SOURCE ALPHA</text>
+<text x="64" y="132" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" fill="#163832">The bug happened earlier.</text>
+<text x="67" y="219" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="400" fill="#5B6C65">Ask a saved Python run about the values you missed.</text>
+<rect x="64" y="300" width="526" height="326" rx="22" fill="#FFFFFF" stroke="#D8DDD4" stroke-width="2"/>
+<text x="94" y="329" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#5B6C65">AT THE END OF THE DEMO</text>
+<text x="94" y="367" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="104" font-weight="700" fill="#087E70">71</text>
+<text x="240" y="402" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#5B6C65">final recorded balance</text>
+<path d="M94 497 L560 497" stroke="#D8DDD4" stroke-width="2" fill="none"/>
+<text x="94" y="521" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#5B6C65">EARLIER IN THE RECORDING</text>
+<text x="94" y="553" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700" fill="#BE442E">-33</text>
+<text x="235" y="566" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#5B6C65">first observed value below zero</text>
+<rect x="622" y="300" width="914" height="326" rx="22" fill="#163832"/>
+<text x="655" y="329" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#98C4B8">QUERY THE SAVED TRACE</text>
+<text x="655" y="374" dominant-baseline="text-before-edge" font-family="Consolas, monospace" font-size="30" font-weight="400" fill="#E5F5EE">aftertrace first result.json</text>
+<text x="655" y="417" dominant-baseline="text-before-edge" font-family="Consolas, monospace" font-size="28" font-weight="400" fill="#8BDFC7">  --var balance --op lt --value 0</text>
+<path d="M655 470 L1500 470" stroke="#35574E" stroke-width="2" fill="none"/>
+<text x="655" y="493" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#98C4B8">SELECTED JSON FIELDS</text>
+<text x="655" y="531" dominant-baseline="text-before-edge" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#F2ECE0">&quot;status&quot;: &quot;found&quot;,  &quot;scalarValue&quot;: -33</text>
+<text x="655" y="574" dominant-baseline="text-before-edge" font-family="Consolas, monospace" font-size="26" font-weight="400" fill="#F2ECE0">&quot;rootCauseEstablished&quot;: false</text>
+<text x="66" y="664" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" fill="#163832">VizTracer records. Aftertrace queries. Your agent gets JSON.</text>
+<text x="66" y="714" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#5B6C65">Synthetic demo. Queries inspect captured values; a first match does not establish the cause.</text>
+<path d="M64 781 L1536 781" stroke="#D8DDD4" stroke-width="2" fill="none"/>
+<text x="66" y="817" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#163832">codex-improvement-lab / agent-aftertrace</text>
+<text x="1139" y="822" dominant-baseline="text-before-edge" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#087E70">BUILT ON VIZTRACER</text>
+</svg>
